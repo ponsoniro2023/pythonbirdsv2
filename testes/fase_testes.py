@@ -106,7 +106,7 @@ class FaseTestes(TestCase):
 
     def teste_acabou_com_porcos_e_passaros(self):
         fase = Fase()
-        porcos = [PorcoFake(1, 1) for _ in range(2)]  # criando 2 porcos
+        porcos = [PorcoFake(1, 1) for _ in range(2)]  # criando 2 porcos ROGERIO LIST Comprehension - SUBSTITUI A NECESSIDADE DE CRIAR UMA LISTA VAZIA
         passaros = [PassaroFake(1, 1) for _ in range(2)]  # criando 2 pássaros
         fase.adicionar_porco(*porcos)
         fase.adicionar_passaro(*passaros)
