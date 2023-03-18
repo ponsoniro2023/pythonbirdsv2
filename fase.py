@@ -113,3 +113,6 @@ class Fase():
     def _possui_porco_ativo(self):
         pass
 
+    def possui_passaros_ativo(self):
+        pass
+
